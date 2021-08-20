@@ -307,45 +307,6 @@ margin-bottom: 50px;
 .footer-text{
     font-weight: 400;
 }
-.full-screen {
-    position: absolute;
-    left: 0;    
-    top: 0;    
-    background: white;    
-    z-index: 999;
-    height: 0%;
-    width: 100%;
-    transition: 0.5s;
-    overflow-x: hidden;
-  }
-   
-  .flex-container-center {
-    displaY: flex;
-    flex-direction: column;
-  }
-
-  
-  .hidden {
-      display: none;
-  }
-  .blue-button{
-    background-color: transparent;
-    border: none
-  }
-  .fas{
-    color: #3030D6;
-    font-size: 30px;
-  }
-  .modal-logo{
-    width: 63.25px;
-    height: 60.25px;
-    
-  }
-  .form-section{
-    max-width: 640px ;
-    margin-right: auto;
-    margin-left: auto;
-  }
 @media (min-width: 1199.98px) {
     h1{
         font-size: 48px;
@@ -404,8 +365,5 @@ margin-bottom: 50px;
     }  
     .container.narrower.text-center{
         margin-bottom: -80px;
-    }
-    .modal-form{
-        max-width: 640px;
-    } 
+    }    
 }
